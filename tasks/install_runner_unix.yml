@@ -138,7 +138,7 @@
     owner: "{{ runner_user }}"
     group: "{{ runner_user }}"
     state: directory
-    mode: '0644'
+    mode: '0744'
   loop:
     - "/_diag"
     - "/externals"
@@ -149,7 +149,7 @@
     owner: "{{ runner_user }}"
     group: "{{ runner_user }}"
     state: file
-    mode: '0644'
+    mode: '0744'
   loop:
     - "/svc.sh"
     - "/run.sh"
