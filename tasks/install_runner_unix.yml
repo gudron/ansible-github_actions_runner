@@ -154,6 +154,7 @@
     - "/svc.sh"
     - "/run.sh"
     - "/.credentials"
+    - "/.credentials_rsaparams"
     - "/.path"
     - "/.runner"
 
