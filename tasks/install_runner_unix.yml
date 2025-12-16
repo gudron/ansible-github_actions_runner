@@ -151,9 +151,9 @@
     state: file
     mode: '0644'
   loop:
-    - "svc.sh"
-    - "run.sh"
-    - "runsvc.sh"
+    - "/svc.sh"
+    - "/run.sh"
+    - "/runsvc.sh"
 
 - name: Install service  # noqa no-changed-when
   ansible.builtin.command: "./svc.sh install {{ runner_user }}"
