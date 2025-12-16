@@ -155,7 +155,6 @@
     - "/run.sh"
     - "/.credentials"
     - "/.path"
-    - "/.service"
     - "/.runner"
 
 - name: Install service  # noqa no-changed-when
