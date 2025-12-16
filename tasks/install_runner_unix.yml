@@ -134,7 +134,7 @@
 
 - name: Set permissions on directories
   ansible.builtin.file:
-    path: "{{ runner_dir }}{{ item }}
+    path: "{{ runner_dir }}{{ item }}"
     owner: "{{ runner_user }}"
     group: "{{ runner_user }}"
     state: directory
@@ -145,7 +145,7 @@
 
 - name: Set permissions on files
   ansible.builtin.file:
-    path: "{{ runner_dir }}{{ item }}
+    path: "{{ runner_dir }}{{ item }}"
     owner: "{{ runner_user }}"
     group: "{{ runner_user }}"
     state: file
